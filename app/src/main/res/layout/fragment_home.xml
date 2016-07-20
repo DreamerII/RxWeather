@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvCityName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weather in "
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+    <ImageView
+        android:id="@+id/ivWeatherIcon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_launcher"
+        android:layout_margin="8dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tvTemp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/tvMain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvMinTemp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"/>
+
+    <TextView
+        android:id="@+id/tvMaxTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"/>
+
+    <TextView
+        android:id="@+id/tvWind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"/>
+    <TextView
+        android:id="@+id/tvCloudiness"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"/>
+    <TextView
+        android:id="@+id/tvPressure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"/>
+
+    <TextView
+        android:id="@+id/tvHumidity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"/>
+    <TextView
+        android:id="@+id/tvSunrise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"/>
+    <TextView
+        android:id="@+id/tvSunset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"/>
+</LinearLayout>
